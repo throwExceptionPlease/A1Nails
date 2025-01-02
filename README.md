@@ -1,7 +1,11 @@
 
 # A1 Nails Salon Website
 
-The **A1 Nails Salon** website is a personal project created to support my family's nail salon. It aims to streamline appointment booking for both the business's employees and clients while effectively communicating the business's services and products. The goal is to make this information easily accessible and appealing to both current and prospective clients.
+The **A1 Nails Salon** website is a personal project created to support my family's business. It streamlines appointment booking for both employees and clients while showcasing the salon’s services and products in an accessible, engaging way. The simple UI and limited functionality are designed to ensure ease of use, particularly for employees who may not be tech-savvy, providing an intuitive experience for all users.
+
+Linked below is the vision:
+[Figma](https://www.figma.com/design/ZbyfjaCJ1uk0nME2hCJLIK/A-1-Nails?node-id=0-1&t=r4Zsjmuyy6KXLvGZ-1)
+
 ## Tech Stack
 
 **Front-End:** React, TypeScript, CSS
