@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--pink-white);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+    color: var(--default-pink);
+    font-size: 1.5rem;
+}
+
+.homeBtn {
+    border-radius: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--default-pink);
+    border: none;
+    font-size: 1.5rem;
+}
+
+.homeBtn a {
+    color: var(--pink-white);
+    text-decoration: none;
+}
