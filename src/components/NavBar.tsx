@@ -17,7 +17,7 @@ type Tab = {
                 <div className={styles.servicesDrop}>
                     <button>SERVICES</button>
                     <div className={styles.servicesItems}>
-                        <a id={styles.dropItem} href="/service-menu">Services</a>
+                        <a id={styles.dropItem} href="/services">Services</a>
                         <a id={styles.dropItem} href="/booking">Book an Appointment</a>
                     </div>
                 </div>

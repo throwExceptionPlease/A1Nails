@@ -104,3 +104,10 @@ body {
 .aboutDrop:hover .aboutItems, .servicesDrop:hover .servicesItems {
   display: block;
 }
+
+/* Styling for nav bar with logo component */
+.navBarLogo {
+  display: flex;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
