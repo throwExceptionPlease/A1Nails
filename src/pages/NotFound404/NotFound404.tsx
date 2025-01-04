@@ -1,5 +1,5 @@
 import React, { JSX } from 'react';
-import styles from './NoutFound404.module.css';
+import styles from './NotFound404.module.css'
 
 function NotFound404(): JSX.Element {
     return (
