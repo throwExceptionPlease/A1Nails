@@ -20,7 +20,7 @@ const ServiceHeaders = (props: ServiceHeadersProps) => {
     const serviceImg = [manicureImg, pedicureImg, eyebrowImg];
 
     useEffect(() => {
-        console.log(props.showImage);
+        
     }, [props.showImage]);
 
     return (

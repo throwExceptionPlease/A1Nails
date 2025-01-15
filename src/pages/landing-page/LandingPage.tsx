@@ -9,7 +9,7 @@ function LandingPage(): JSX.Element {
         <div className={styles.mainDiv}>
             <div className={styles.mainContainer}>
                 <div className={styles.leftContainer}>
-                    <NavBar/>
+                    <NavBar currPage={"Home"}/>
                     <h1 className={styles.header}>A-1 NAILS</h1>
                     <button className={styles.btn}>Book an Appointment</button>
                     <button className={styles.btn}>Our Services</button>

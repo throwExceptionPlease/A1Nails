@@ -108,3 +108,10 @@ body {
     width: 75%;
     height: auto;
 }
+
+.mainHeaders .activeHeader {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }

@@ -7,10 +7,6 @@ import Footer from '../../components/footer/Footer';
 
 function Services(): JSX.Element {
     const [currPage, setCurrPage] = useState(0);
-
-    useEffect(() => {
-        console.log(currPage);
-    }, [currPage]);
     
     const handleNextService = (btnIndex: number) => {
         setCurrPage(btnIndex);
@@ -18,7 +14,7 @@ function Services(): JSX.Element {
 
     return (
         <div className={styles.servicesMainContainer}>
-            <NavBarLogo />
+            <NavBarLogo currPage={"Services"} />
             <ServiceHeaders showImage={true} currPage={currPage}/>
             <div className={styles.breadcrumbContainer}>
                 <button className={currPage === 0? styles.currBtn : styles.nonCurrBtn} onClick={() => handleNextService(0)}/>

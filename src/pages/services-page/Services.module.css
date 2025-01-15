@@ -1,6 +1,7 @@
 .servicesMainContainer {
     background-color: var(--pink-white);
-    height: auto; overflow: auto;
+    height: 100vh; 
+    overflow: auto;
 }
 
 .breadcrumbContainer {

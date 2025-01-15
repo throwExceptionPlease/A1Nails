@@ -34,4 +34,44 @@
     color: var(--light-brown);
     text-align: center;
     font-weight: 600;
+    margin-top: 25px;
+}
+
+.pedicureMainContainer, .manicureMainContainer, .eyebrowsMainContainer {
+    min-height: 50vh;
+    padding-bottom: 20px;
+}
+
+.treatHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.25rem;
+    color: var(--light-brown);
+    text-align: center;
+}
+
+.inactiveTreatmentHeader {
+    opacity: .5;
+    text-decoration: none;
+}
+
+.activeTreatmentHeader {
+    text-decoration: underline;
+}
+
+.treatDescContainer {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.25rem;
+    color: var(--light-brown);
+}
+
+.error {
+    text-align: center;
+    height: 50vh;
+    color: var(--light-brown);
 }

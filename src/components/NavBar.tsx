@@ -8,22 +8,26 @@ type Tab = {
     submenu?: Tab[]; // array of subtabs
   };
 
-  const NavBar: React.FC = () => {
+type NavBarProps = {
+    currPage: string
+}
+
+const NavBar = (props: NavBarProps) => {
     return (
         <div className={styles.navBar}>
             {/* <img src={mainLogo} className={styles.mainLogo}/> */}
             <div className={styles.mainHeaders}>
-                <a href="/">HOME</a>
+                <a href="/" className={props.currPage ==='Home'? styles.activeHeader : ''}>HOME</a>
                 <div className={styles.servicesDrop}>
-                    <button>SERVICES</button>
+                    <button className={props.currPage ==='Services'? styles.activeHeader : ''}>SERVICES</button>
                     <div className={styles.servicesItems}>
                         <a id={styles.dropItem} href="/services">Services</a>
                         <a id={styles.dropItem} href="/booking">Book an Appointment</a>
                     </div>
                 </div>
-                <a href="/products">PRODUCTS</a>
+                <a href="/products" className={props.currPage ==='Products'? styles.activeHeader : ''}>PRODUCTS</a>
                 <div className={styles.aboutDrop}>
-                    <button>ABOUT US</button>
+                    <button className={props.currPage ==='About Us'? styles.activeHeader : ''}>ABOUT US</button>
                     <div className={styles.aboutItems}>
                         <a id={styles.dropItem} href="/team">Our Team</a>
                         <a id={styles.dropItem} href="/directory">Directory</a>

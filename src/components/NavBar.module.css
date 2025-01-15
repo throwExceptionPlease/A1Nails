@@ -10,12 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-/* .navBar .mainLogo {
-  margin-left: 20px;
-  max-width: 100%;
-  object-fit: contain;
-} */
-
 .mainHeaders {
   display: flex;
   overflow: hidden;
@@ -29,6 +23,13 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.mainHeaders .activeHeader {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  font-weight: 600;
   cursor: pointer;
 }
 
