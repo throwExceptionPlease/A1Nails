@@ -1,4 +1,28 @@
 .servicesMainContainer {
     background-color: var(--pink-white);
-    height: 100vh;
+    height: auto; overflow: auto;
+}
+
+.breadcrumbContainer {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nonCurrBtn, .currBtn {
+    width: 140px;
+    height: 10px;
+    border-radius: 0px;
+    border: none;
+}
+
+.nonCurrBtn {
+    background-color: var(--default-pink);
+    opacity: .5
+}
+
+.currBtn {
+    background-color: var(--dark-brown);
 }

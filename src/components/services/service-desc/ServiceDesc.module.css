@@ -1,0 +1,37 @@
+.itemMainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemInfo {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.itemInfo h2, .itemInfo p, .subHeader {
+    color: var(--light-brown);
+    margin: 0;
+}
+
+.itemInfo h2 {
+    font-weight: 600;
+}
+
+.price {
+    color: var(--light-brown);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.subHeader {
+    color: var(--light-brown);
+    text-align: center;
+    font-weight: 600;
+}
