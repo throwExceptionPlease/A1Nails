@@ -1,77 +1,81 @@
 .itemMainContainer {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .itemInfo {
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    width: 100%;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
 }
 
-.itemInfo h2, .itemInfo p, .subHeader {
-    color: var(--light-brown);
-    margin: 0;
+.itemInfo h2,
+.itemInfo p,
+.subHeader {
+  color: var(--light-brown);
+  margin: 0;
 }
 
 .itemInfo h2 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .price {
-    color: var(--light-brown);
-    font-weight: 500;
-    font-size: 1.5rem;
+  color: var(--light-brown);
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .subHeader {
-    color: var(--light-brown);
-    text-align: center;
-    font-weight: 600;
-    margin-top: 25px;
+  color: var(--light-brown);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 25px;
 }
 
-.pedicureMainContainer, .manicureMainContainer, .eyebrowsMainContainer {
-    min-height: 50vh;
-    padding-bottom: 20px;
+.pedicureMainContainer,
+.manicureMainContainer,
+.eyebrowsMainContainer {
+  min-height: 50vh;
+  padding-bottom: 20px;
 }
 
 .treatHeaderContainer {
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.25rem;
-    color: var(--light-brown);
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.25rem;
+  color: var(--light-brown);
+  text-align: center;
 }
 
 .inactiveTreatmentHeader {
-    opacity: .5;
-    text-decoration: none;
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 .activeTreatmentHeader {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .treatDescContainer {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.25rem;
-    color: var(--light-brown);
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.25rem;
+  color: var(--light-brown);
 }
 
 .error {
-    text-align: center;
-    height: 50vh;
-    color: var(--light-brown);
+  text-align: center;
+  height: 50vh;
+  color: var(--light-brown);
 }

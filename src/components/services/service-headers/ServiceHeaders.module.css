@@ -1,87 +1,90 @@
 .servicesMainContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    overflow: hidden;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
 }
 
 .headerContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    position: relative;
-    transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  position: relative;
+  transition: transform 0.5s ease;
 }
 
 .header {
-    color: var(--default-pink);
-    flex: 0 0 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
-    opacity: 0.5;
-    transform: scale(0.8);
-    z-index: 1;
+  color: var(--default-pink);
+  flex: 0 0 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease,
+    scale 0.5s ease;
+  opacity: 0.5;
+  transform: scale(0.8);
+  z-index: 1;
 }
 
 .mainHeader {
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 4rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 4rem;
 }
 
 .serviceDesc {
-    color: var(--light-brown);
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+  color: var(--light-brown);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .center {
-    transform: translateX(0) scale(1);
-    opacity: 1;
-    z-index: 3;
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  z-index: 3;
 }
 
 .left {
-    transform: translateX(-120%);
+  transform: translateX(-120%);
 }
 
 .right {
-    transform: translateX(120%);
+  transform: translateX(120%);
 }
 
 /* Additional classes to handle overlaps */
 .farLeft {
-    transform: translateX(-240%);
-    opacity: 0.3;
+  transform: translateX(-240%);
+  opacity: 0.3;
 }
 
 .farRight {
-    transform: translateX(240%);
-    opacity: 0.3;
+  transform: translateX(240%);
+  opacity: 0.3;
 }
 
 .serviceImage {
-    width: auto;
-    height: 198px;
-    border-radius: 10px;
+  width: auto;
+  height: 198px;
+  border-radius: 10px;
 }
 
 .center .serviceImage {
-    opacity: 1;
+  opacity: 1;
 }
 
 .left .serviceImage,
 .right .serviceImage,
 .farLeft .serviceImage,
 .farRight .serviceImage {
-    opacity: 0.5;
-    transform: scale(0.9);
+  opacity: 0.5;
+  transform: scale(0.9);
 }

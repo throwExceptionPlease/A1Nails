@@ -1,84 +1,84 @@
 {
-	"Manicure": {
-		"desc": "Experience pure luxury with our manicure service. We shape your nails perfectly and offer beautiful finishes to complete the look you want.",
-		"img": "../../../assets/manicure-image.png",
-		"items": [
-			{
-				"name": "BASIC Manicure",
-				"desc": null,
-				"price": 20
-			},
-            {
-				"name": "SPA Manicure",
-				"desc": "Includes all basic manicure followed by sugar scrub exfoliation, a mud mask wrapped around your hands with a hot towel, and finished with a massage using honey lotion.",
-				"price": 32
-			},
-			{
-				"name": "DELUX Manicure",
-				"desc": "Includes all SPA manicure features, then finishes with a handcrafted Hydrating Custom Paraffin treatment.",
-				"price": 42
-			}
-		]
-	},
-	
-	"Pedicure": {
-		"desc": "Treat yourself to our pedicure service for relaxation. From expert care to soothing massages, you will leave feeling refreshed and rejuvenated.",
-		"img": "assets/_.png",
-		"items": [
-			{
-				"name": "BASIC Pedicure with Callus Treatment",
-				"desc": null,
-				"price": 30
-			},
-			{
-				"name": "SPA Pedicure",
-				"desc": "Includes all basic pedicure with callus treatment, followed by sugar scrub exfoliation, a detox mud mask wrapped around your feet with a hot towel, and finishes with a massage using honey lotion.",
-				"price": 42
-			}
-		],
-		"Add-ons": {
-			"items": [
-				{
-					"name": "Sugar Scrub (organic handmade optional)",
-					"desc": null,
-					"price": 5
-				},
-				{
-					"name": "Hydrating Paraffin",
-					"desc": null,
-					"price": 10
-				},
-				{
-					"name": "Mud Mask",
-					"desc": null,
-					"price": 7
-				}
-			]
-		},
-		"More Information About Treatments": {
-			"treatments": [
-				{
-					"name": "Spa Pedicure (Destress)",
-					"desc": "This pedicure includes all services of basic pedicure. After exfoliating and renewing your feet with sugar scrub, we will apply a cooling detoxifying masque treatment, and then warm with a hot towel to let your stress melt away and your skin brighter and toner."
-				},
-				{
-					"name": "Sugar Scrub Exfoliation",
-					"desc": "Remove dead skin, renew your feet, optional: organic hand made sugar scrub. Always available."
-				},
-				{
-					"name": "Callus Treatment",
-					"desc": "More than just maintenance for your feet. This treatment has callus peel that reduces and elevates treatment callus build up. Treat your deserving feet with this smoothing and refreshing pedicure."
-				},
-				{
-					"name": "Deluxe Pedicure (Hydrating)",
-					"desc": "This pedicure includes all services of Spa pedicure, but this treatment is used to heal overworked feet. Sink into the most luxurious heat you've ever felt, while your feet are surrounded in your own personal organic oil paraffin-filled glove (not from a communal bath), looking in the skin's natural moisture. This antioxidant infusion fights cellular aging and makes the skin look and feel younger with unique blend of green and white tea, berry extract. Your skin is then warmed with a hot towel to deep moisturizing. We finish with a moisturizing honey massage cream."
-				}
-			]	
-		}
-	},
-    "Eyebrows": {
-        "desc": "Enhance your look with our eyebrow service. Our expert technicians shape and define your brows, giving you a stunning and polished look.",
-        "img": "assets/_.png",
-        "items": [{"name": "Eyebrows", "desc": null, "price": 9}]
+  "Manicure": {
+    "desc": "Experience pure luxury with our manicure service. We shape your nails perfectly and offer beautiful finishes to complete the look you want.",
+    "img": "../../../assets/manicure-image.png",
+    "items": [
+      {
+        "name": "BASIC Manicure",
+        "desc": null,
+        "price": 20
+      },
+      {
+        "name": "SPA Manicure",
+        "desc": "Includes all basic manicure followed by sugar scrub exfoliation, a mud mask wrapped around your hands with a hot towel, and finished with a massage using honey lotion.",
+        "price": 32
+      },
+      {
+        "name": "DELUX Manicure",
+        "desc": "Includes all SPA manicure features, then finishes with a handcrafted Hydrating Custom Paraffin treatment.",
+        "price": 42
+      }
+    ]
+  },
+
+  "Pedicure": {
+    "desc": "Treat yourself to our pedicure service for relaxation. From expert care to soothing massages, you will leave feeling refreshed and rejuvenated.",
+    "img": "assets/_.png",
+    "items": [
+      {
+        "name": "BASIC Pedicure with Callus Treatment",
+        "desc": null,
+        "price": 30
+      },
+      {
+        "name": "SPA Pedicure",
+        "desc": "Includes all basic pedicure with callus treatment, followed by sugar scrub exfoliation, a detox mud mask wrapped around your feet with a hot towel, and finishes with a massage using honey lotion.",
+        "price": 42
+      }
+    ],
+    "Add-ons": {
+      "items": [
+        {
+          "name": "Sugar Scrub (organic handmade optional)",
+          "desc": null,
+          "price": 5
+        },
+        {
+          "name": "Hydrating Paraffin",
+          "desc": null,
+          "price": 10
+        },
+        {
+          "name": "Mud Mask",
+          "desc": null,
+          "price": 7
+        }
+      ]
+    },
+    "More Information About Treatments": {
+      "treatments": [
+        {
+          "name": "Spa Pedicure (Destress)",
+          "desc": "This pedicure includes all services of basic pedicure. After exfoliating and renewing your feet with sugar scrub, we will apply a cooling detoxifying masque treatment, and then warm with a hot towel to let your stress melt away and your skin brighter and toner."
+        },
+        {
+          "name": "Sugar Scrub Exfoliation",
+          "desc": "Remove dead skin, renew your feet, optional: organic hand made sugar scrub. Always available."
+        },
+        {
+          "name": "Callus Treatment",
+          "desc": "More than just maintenance for your feet. This treatment has callus peel that reduces and elevates treatment callus build up. Treat your deserving feet with this smoothing and refreshing pedicure."
+        },
+        {
+          "name": "Deluxe Pedicure (Hydrating)",
+          "desc": "This pedicure includes all services of Spa pedicure, but this treatment is used to heal overworked feet. Sink into the most luxurious heat you've ever felt, while your feet are surrounded in your own personal organic oil paraffin-filled glove (not from a communal bath), looking in the skin's natural moisture. This antioxidant infusion fights cellular aging and makes the skin look and feel younger with unique blend of green and white tea, berry extract. Your skin is then warmed with a hot towel to deep moisturizing. We finish with a moisturizing honey massage cream."
+        }
+      ]
     }
+  },
+  "Eyebrows": {
+    "desc": "Enhance your look with our eyebrow service. Our expert technicians shape and define your brows, giving you a stunning and polished look.",
+    "img": "assets/_.png",
+    "items": [{ "name": "Eyebrows", "desc": null, "price": 9 }]
+  }
 }

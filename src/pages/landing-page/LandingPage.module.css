@@ -1,81 +1,84 @@
 .mainDiv {
-    height: 100vh;
-    max-height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .mainContainer {
-    display: flex;
-    height: calc(100% - 10px - 10%);
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  height: calc(100% - 10px - 10%);
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .leftContainer {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    background-color: var(--pink-white);
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: var(--pink-white);
+  align-items: center;
 
-    /* handle text wrapping and overflowing */
-    word-wrap: break-word;
-    overflow: hidden;
-    box-sizing: border-box;
+  /* handle text wrapping and overflowing */
+  word-wrap: break-word;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .header {
-    color: var(--default-pink);
-    font-size: 7.5rem;
-    margin: 20% 0 0 0;
-    font-weight: 400;
-    text-align: center;
+  color: var(--default-pink);
+  font-size: 7.5rem;
+  margin: 20% 0 0 0;
+  font-weight: 400;
+  text-align: center;
 }
 
 .btn {
-    width: 50%;
-    word-wrap: break-word;
-    background-color: var(--default-pink);
-    border: none;
-    margin-bottom: 2%;
-    font-size: 1.5rem;
-    border-radius: 5px;    
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    color: var(--pink-white);
-    text-transform: uppercase;
-    margin-top: 20px;
-    border: solid 2px var(--pink-white);
+  width: 50%;
+  word-wrap: break-word;
+  background-color: var(--default-pink);
+  border: none;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  color: var(--pink-white);
+  text-transform: uppercase;
+  margin-top: 20px;
+  border: solid 2px var(--pink-white);
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .btn:hover {
-    cursor: pointer;
-    background-color: var(--pink-white);
-    color: var(--default-pink);
-    border: solid 2px var(--default-pink);
+  cursor: pointer;
+  background-color: var(--pink-white);
+  color: var(--default-pink);
+  border: solid 2px var(--default-pink);
 }
 
 .help {
-    color: var(--default-pink);
-    margin: 0;
+  color: var(--default-pink);
+  margin: 0;
 }
 
 .guideLink {
-    color: var(--default-pink);
-    font-weight: 600;
+  color: var(--default-pink);
+  font-weight: 600;
 }
 
 .rightContainer {
-    background-color: var(--dark-brown);
-    width: 50%;
-    display: flex;
-    overflow: hidden;
-    box-sizing: border-box;
+  background-color: var(--dark-brown);
+  width: 50%;
+  display: flex;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .salonImage {
   max-width: 90%;
-  margin: auto 0 auto auto
+  margin: auto 0 auto auto;
 }
