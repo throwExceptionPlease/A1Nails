@@ -1,6 +1,6 @@
-import NavBarLogo from '../../components/NavBarLogo';
-import styles from './Products.module.css';
-import ProductCard from '../../components/product-card/ProductCard';
+import NavBarLogo from "../../components/NavBarLogo";
+import styles from "./Products.module.css";
+import ProductCard from "../../components/product-card/ProductCard";
 
 type Product = {
   name: string;

@@ -1,73 +1,78 @@
 .pageContainer {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: var(--pink-white);
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--pink-white);
+  margin: 0;
+  padding: 0;
 }
 
 .prodName {
-    color: var(--default-pink);
-    text-transform: uppercase;
-    margin-top: 0;
-    text-align: center;
+  color: var(--default-pink);
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
 }
 
 .imgContainer {
-    background-color: white;
-    opacity: .5;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  background-color: white;
+  opacity: 0.5;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .colorSpan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .colorSpan p {
-    margin-right: 10px;
-    color: var(--default-pink);
-    font-weight: 600;
-    font-size: 1.25rem;
+  margin-right: 10px;
+  color: var(--default-pink);
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .prodPrice {
-    color: var(--default-pink);
-    font-size: 1.5rem;
-    text-align: center;
+  color: var(--default-pink);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .sizeContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sizeContainer p {
-    color: var(--light-brown);
-    font-size: 1.25rem;
+  color: var(--light-brown);
+  font-size: 1.25rem;
 }
 
-.inStock, .numStock, .sizeContainer p, .sizeContainer h3{
-    margin: 0;
-    text-align: center;
+.inStock,
+.numStock,
+.sizeContainer p,
+.sizeContainer h3 {
+  margin: 0;
+  text-align: center;
 }
 
 .sizeContainer h3 {
-    margin-right: 10px;
-    color: var(--default-pink);
-    font-weight: 600;
-    font-size: 1.25rem;
+  margin-right: 10px;
+  color: var(--default-pink);
+  font-weight: 600;
+  font-size: 1.25rem;
 }
 
-.inStock, .numStock, .prodBottomNote {
-    color: var(--light-brown);
-    font-size: 1.25rem;
-    text-align: center;
+.inStock,
+.numStock,
+.prodBottomNote {
+  color: var(--light-brown);
+  font-size: 1.25rem;
+  text-align: center;
 }

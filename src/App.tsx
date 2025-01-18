@@ -6,16 +6,18 @@ import NotFound404 from "./pages/NotFound404/NotFound404";
 import Services from "./pages/services-page/Services";
 import Products from "./pages/products-page/Products";
 import IndProductPage from "./components/product-page/IndProductPage";
-import productsList from './assets/productsList.json';
+import productsList from "./assets/productsList.json";
 
 function App(): JSX.Element {
-
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/products" element={<Products products={productsList.products} />} />
+        <Route
+          path="/products"
+          element={<Products products={productsList.products} />}
+        />
         <Route path="/products/:id" element={<IndProductPage />} />
         <Route path="*" element={<NotFound404 />} />
       </Routes>
