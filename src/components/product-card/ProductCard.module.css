@@ -1,0 +1,75 @@
+.cardMainContainer {
+    background-color: white;
+    width: fit-content;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.25);
+    position: relative;
+    overflow: visible;
+}
+
+.prodImg {
+    position: absolute; /* Position the image relative to the container */
+    top: -90px; /* Push the image halfway outside the bottom of the container */
+    width: 75%; /* Adjust as needed */
+    height: auto;
+}
+
+.prodName, .price, .inStock, .outStock {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prodName {
+    text-transform: uppercase;
+    color: var(--default-pink);
+    font-weight: 600;
+}
+
+.colorSpan {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: var(--default-pink)
+}
+
+.viewDetailsBtn {
+    background-color: var(--default-pink);
+    color: var(--pink-white);
+    border: solid 2px var(--default-pink);
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.viewDetailsBtn:hover {
+    cursor: pointer;
+    background-color: var(--pink-white);
+    color: var(--default-pink);
+    border: solid 2px var(--default-pink);
+}
+
+.inStock {
+    color: var(--black);
+}
+
+.outStock {
+    color: var(--red);
+}
+
+/* For modal popup */
+
+.modalMainContainer {
+    width: 100vh;
+    height: 100vh;
+}

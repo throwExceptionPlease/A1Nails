@@ -2,12 +2,12 @@
   "products": [
     {
       "name": "Flip Flops",
-      "colors": ["FFFFFF", "A5FF60", "59B9FF", "FFAEAE"],
+      "colors": ["#FFFFFF", "#A5FF60", "#59B9FF", "#FFAEAE"],
       "sizes": ["One-size"],
-      "desc": null,
       "price": 10,
       "inStock": true,
-      "num": 100
+      "num": 100,
+      "img": "/assets/flipFlops.svg"
     }
   ]
 }

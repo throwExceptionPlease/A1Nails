@@ -1,0 +1,29 @@
+.productsMainContainer {
+    height: 100vh;
+    background-color: var(--pink-white);
+    margin: 0;
+}
+
+.productsTop {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.note, .productsPageHeader {
+    margin: 0;
+    padding: 0;
+}
+
+.productsPageHeader {
+    color: var(--default-pink);
+}
+
+.note {
+    color: var(--light-brown);
+}
+
+.productsContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
