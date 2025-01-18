@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
-import manicureImg from "../../../assets/manicureImg.svg";
 import styles from "./ServiceHeaders.module.css";
-import pedicureImg from "../../../assets/pedicureImg.svg";
-import eyebrowImg from "../../../assets/eyebrowImg.svg";
+import menu from '../../../assets/menu.json';
 
 type ServiceHeadersProps = {
   showImage: boolean;
@@ -10,14 +8,9 @@ type ServiceHeadersProps = {
 };
 
 const ServiceHeaders = (props: ServiceHeadersProps) => {
-  const serviceHeaders = ["Manicure", "Pedicure", "Eyebrows"];
-  const serviceDescriptions = [
-    "Experience pure luxury with our manicure service. We shape your nails perfectly and offer beautiful finishes to complete the look you want.",
-    "Treat yourself to our pedicure service for relaxation. From expert care to soothing massages, you will leave feeling refreshed and rejuvenated.",
-    "Enhance your look with our eyebrow service. Our expert technicians shape and define your brows, giving you a stunning and polished look.",
-  ];
-
-  const serviceImg = [manicureImg, pedicureImg, eyebrowImg];
+  const serviceHeaders = Object.keys(menu);
+  const serviceDescriptions = serviceHeaders.map((key) => (menu as Record<string, { desc: string }>)[key].desc);
+  const serviceImg = serviceHeaders.map((key) => (menu as Record<string, { img: string }>)[key].img);
 
   useEffect(() => {}, [props.showImage]);
 

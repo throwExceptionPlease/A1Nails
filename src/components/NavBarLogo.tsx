@@ -7,7 +7,6 @@ type NavBarLogo = {
   currPage: string;
 };
 function NavBarLogo(props: NavBarLogo): JSX.Element {
-  console.log(props.currPage);
   return (
     <div className={styles.navBarLogo}>
       <a href="/">

@@ -1,7 +1,7 @@
 {
   "Manicure": {
     "desc": "Experience pure luxury with our manicure service. We shape your nails perfectly and offer beautiful finishes to complete the look you want.",
-    "img": "../../../assets/manicure-image.png",
+    "img": "/assets/manicureImg.svg",
     "items": [
       {
         "name": "BASIC Manicure",
@@ -23,7 +23,7 @@
 
   "Pedicure": {
     "desc": "Treat yourself to our pedicure service for relaxation. From expert care to soothing massages, you will leave feeling refreshed and rejuvenated.",
-    "img": "assets/_.png",
+    "img": "/assets/pedicureImg.svg",
     "items": [
       {
         "name": "BASIC Pedicure with Callus Treatment",
@@ -78,7 +78,7 @@
   },
   "Eyebrows": {
     "desc": "Enhance your look with our eyebrow service. Our expert technicians shape and define your brows, giving you a stunning and polished look.",
-    "img": "assets/_.png",
+    "img": "/assets/eyebrowImg.svg",
     "items": [{ "name": "Eyebrows", "desc": null, "price": 9 }]
   }
 }

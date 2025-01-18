@@ -15,7 +15,6 @@ const IndProductPage = () => {
 
   const { name, colors, sizes, price, inStock, num, img } = state;
 
-  console.log(sizes);
   return (
     <div className={styles.pageContainer}>
       <NavBarLogo currPage={"Products"} />
