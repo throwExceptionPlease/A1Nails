@@ -7,12 +7,14 @@ import Services from "./pages/services-page/Services";
 import Products from "./pages/products-page/Products";
 import IndProductPage from "./components/product-page/IndProductPage";
 import productsList from "./assets/productsList.json";
+import BookingPage from "./pages/book-apt/BookingPage";
 
 function App(): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/booking" element={<BookingPage />} />
         <Route path="/services" element={<Services />} />
         <Route
           path="/products"

@@ -1,0 +1,51 @@
+.bookPageContainer {
+    height: 100vh;
+    background-color: var(--pink-white);
+}
+
+.bookHeader {
+    text-transform: uppercase;
+    color: var(--default-pink);
+    text-align: center;
+    margin-top: 0;
+}
+
+.formContainer {
+    background-color: #FBFBFB;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.formContainer .formNotice {
+    color: var(--red);
+}
+
+li:not(:first-child) {
+    margin-top: 30px;
+}
+
+.personalInfo {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.firstName, .lastName, .email, .phoneNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid black 1px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
